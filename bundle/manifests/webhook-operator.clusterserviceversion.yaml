@@ -103,7 +103,7 @@ spec:
                 image: quay.io/agreene/webhook-operator:latest
                 name: manager
                 ports:
-                - containerPort: 9443
+                - containerPort: 4343
                   name: webhook-server
                   protocol: TCP
                 resources:
